@@ -1,0 +1,22 @@
+.root {
+    -fx-background-color: black; /* Черный цвет фона */
+}
+
+.label {
+    -fx-text-fill: white; /* Белый цвет текста для метки */
+}
+
+.Button {
+    -fx-background-color: blue; /* Цвет кнопки */
+    -fx-text-fill: white; /* Цвет текста на кнопке */
+}
+
+/* Специальный стиль для кнопки "Выбрать адреса для рассылки" */
+.menu {
+    -fx-background-color: black; /* Черный цвет фона для каждого Menu */
+    -fx-text-fill: white; /* Белый цвет текста в меню */
+}
+.menu .menu-item {
+    -fx-background-color: black; /* Черный цвет фона для пунктов меню */
+    -fx-text-fill: white; /* Белый цвет текста для пунктов меню */
+}
